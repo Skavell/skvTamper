@@ -7,7 +7,7 @@
 // @match        https://verse.aavegotchi.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=aavegotchi.com
 // @grant        none
-// @updateURL    https://foo.com/user/project/raw/develop/main.user.js
+// @updateURL    https://github.com/Skavell/skvTamper/blob/main/tamper.user.js
 // ==/UserScript==
 
 (function() {
