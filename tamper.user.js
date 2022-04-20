@@ -4,7 +4,7 @@
 // @version      0.2
 // @description  try to take over the world!
 // @author       You
-// @match        https://verse.aavegotchi.com/*
+// @match        https://verse.aavegotchi.com/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=aavegotchi.com
 // @grant        none
 // @updateURL    https://github.com/Skavell/skvTamper/raw/main/tamper.user.js
