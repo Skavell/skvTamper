@@ -1,23 +1,3 @@
-(function() {
-    'use strict';
-    function hide() {
-        setInterval(() => {
-            if(document.querySelector(".pending-alchemica-container div[class='jsx-42443983 box-holder has-top has-bottom  ']")) {
-                document.querySelector(".action-button-container").style.visibility = "hidden", 
-                document.querySelector(".bottom-right-container").style.visibility = "hidden", 
-                document.querySelector(".bottom-left-container").style.visibility = "hidden", 
-                document.querySelector(".users-health-container").style.visibility = "hidden", 
-                document.querySelector(".pending-alchemica-container div[class='jsx-42443983 box-holder has-top has-bottom  ']").style.boxShadow = "none", 
-                document.querySelector(".pending-alchemica-container div[class='jsx-42443983 box-holder has-top has-bottom  ']").classList.remove("has-top", "has-bottom"), 
-                document.querySelector(".pending-alchemica-container div[class='jsx-42443983 left-cap cap']").style.visibility = "hidden",
-                document.querySelector(".pending-alchemica-container div[class='jsx-42443983 content']").style.background = "none", 
-                document.querySelector(".top-left-container").style.visibility = "hidden",
-                document.querySelector(".pocket-container").style.visibility = "hidden"
-            }
-        }, 5000);
-    }
-    hide();
-})();
 _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([[16], {
     "/0+H": function(e, t, a) {
         "use strict";
@@ -552,7 +532,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([[16], {
                         connected: !1
                     })
                 }
-            }), E("div", {
+            }), N && E("div", {
                 className: "jsx-".concat(y.__hash) + " top-left-container"
             }, E("div", {
                 className: "jsx-".concat(y.__hash) + " settings-menu-container"
@@ -579,9 +559,9 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([[16], {
                 },
                 address: (null === s || void 0 === s ? void 0 : s.owner) || "",
                 network: B
-            }))), s && g && _ && E("div", {
+            }))), s && g && _ && N && E("div", {
                 className: "jsx-".concat(y.__hash) + " pocket-container"
-            }, E(h.c, null)), E("div", {
+            }, E(h.c, null)), N && E("div", {
                 className: "jsx-".concat(y.__hash) + " top-right-container"
             }, s && l && E("div", {
                 className: "jsx-".concat(y.__hash) + " users-health-container"
@@ -593,7 +573,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([[16], {
                 },
                 img: l.url,
                 backgroundColor: M.backgroundColor
-            })), E("div", {
+            })), N && E("div", {
                 className: "jsx-".concat(y.__hash) + " pending-alchemica-container"
             }, E(h.a, {
                 alchemica: {
@@ -606,7 +586,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([[16], {
                 total: (null === r || void 0 === r ? void 0 : r.total) || 0
             }))), N && E("p", {
                 className: "jsx-".concat(y.__hash) + " performance"
-            }, "DEBUG CONSOLE:", C && E("span", {
+            }, "Aavegotchi Bot V4.x SHELBY FAMILY", C && E("span", {
                 className: "jsx-".concat(y.__hash)
             }, "Host: ", C, " "), D && E("span", {
                 className: "jsx-".concat(y.__hash)
@@ -619,16 +599,16 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([[16], {
                     }
                 }, e.charAt(0).toUpperCase() + e.slice(1), ": ", H[e], "ms")
             }
-            ))), E("div", {
+            ))), N && E("div", {
                 className: "jsx-".concat(y.__hash) + " action-button-container"
             }, E(w.a, {
                 img: x.e,
                 onClick: function() {
                     return se(!0)
                 }
-            }), E(j.a, null)), E("div", {
+            }), E(j.a, null)), N && E("div", {
                 className: "jsx-".concat(y.__hash) + " bottom-right-container"
-            }, E(h.l, null)), E("div", {
+            }, E(h.l, null)), N && E("div", {
                 className: "jsx-".concat(y.__hash) + " bottom-left-container"
             }, T && E("div", {
                 className: "jsx-".concat(y.__hash) + " minimap-container"
