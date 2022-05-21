@@ -563,7 +563,7 @@
                     volume: .4
                 })
             }
-        }, O = a(97001), U = a(35038), M = a(50813);
+        }, O = a(97001), U = a(35038), M = a(1787);
         function C(e, t, a, n, o, i, r) {
             try {
                 var s = e[i](r)
@@ -932,16 +932,16 @@
                         ))
                     }
                 }(s().mark((function e(t) {
-                    var n;
+                    var a;
                     return s().wrap((function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
                                 return e.next = 2,
-                                a.getBlockNumber();
+                                t.getBlockNumber();
                             case 2:
-                                n = e.sent,
-                                _(n);
+                                a = e.sent,
+                                _(a);
                             case 4:
                             case "end":
                                 return e.stop()
@@ -977,6 +977,7 @@
             (0,
             o.useEffect)((function() {
                 if (a) {
+                    x(a);
                     var e = setInterval((function() {
                         x(a)
                     }
@@ -1359,7 +1360,7 @@
                 }), S && (0,
                 n.jsxs)("p", {
                     className: "jsx-".concat(be.__hash) + " performance",
-                    children: ["Aavegotchi Bot V6 by SHELBY FAMILY", v && (0,
+                    children: ["DEBUG CONSOLE:", v && (0,
                     n.jsxs)("span", {
                         className: "jsx-".concat(be.__hash),
                         children: ["Host: ", v, " "]
@@ -1750,5 +1751,5 @@
     _N_E = t
 }
 ]);
-//# sourceMappingURL=play-a8394d42bf1f8fdd.js.map
+//# sourceMappingURL=play-26f3bdfb5999ea7b.js.map
 })();
