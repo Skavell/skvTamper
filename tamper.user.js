@@ -8,6 +8,7 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=aavegotchi.com
 // @grant        none
 // @updateURL    https://github.com/Skavell/skvTamper/raw/main/tamper.user.js
+// @downloadURL  https://github.com/Skavell/skvTamper/raw/main/tamper.user.js
 // ==/UserScript==
 
 (function() {
