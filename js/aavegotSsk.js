@@ -1,3 +1,4 @@
+header('Content-Type: text/javascript');
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([[141], {
     88764: function(e, t, a) {
         (window.__NEXT_P = window.__NEXT_P || []).push(["/play", function() {
